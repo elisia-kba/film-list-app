@@ -1,0 +1,33 @@
+.container ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: -40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+    width: 110%;
+  }
+  
+  .container ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .imageButton img {
+    width: 20px;
+    cursor: pointer;
+  }
+  

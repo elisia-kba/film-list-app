@@ -1,0 +1,46 @@
+.aboutMe {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  
+.photo {
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #0073e6;
+  }
+  
+  .about-me{
+    text-align: left;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+  }
+  
+  .git {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 5px;
+    display: inline-block;
+    transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
+  }
+  
+  .git:hover {
+    text-decoration: underline;
+    color: #005bb5;
+  }
+  
