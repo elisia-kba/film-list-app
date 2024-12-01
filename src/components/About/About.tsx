@@ -9,7 +9,7 @@ interface AboutProps {
 
 const About: React.FC<AboutProps> = ({ name, git, photo }) => {
   return (
-    <section className={styles.About}>
+    <section className={styles.about}>
       <img 
         className={styles.photo} 
         src={photo} 
