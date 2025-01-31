@@ -6,14 +6,14 @@ interface AboutProps {
   git: string; // le lien vers le profil GitHub
   photo: string; // URL de la photo  de la personne
 }
-
+const altText = name ? `${name}'s photo` : "Profile picture"; 
 const About: React.FC<AboutProps> = ({ name, git, photo }) => {
   return (
     <section className={styles.about}>
       <img 
         className={styles.photo} 
         src={photo} 
-        alt={`${name}'s photo`} 
+        alt={altText} 
       />
       <div className={styles.details}>
         <h2 className={styles.name}>{name}</h2>
