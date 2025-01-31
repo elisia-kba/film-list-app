@@ -4,7 +4,7 @@ import styles from './About.module.css';
 interface AboutProps {
   name: string; // nom de la personne
   git: string; // le lien vers le profil GitHub
-  photo: string; // URL de la photo
+  photo: string; // URL de la photo  de la personne
 }
 
 const About: React.FC<AboutProps> = ({ name, git, photo }) => {
