@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Router>
       <h1>Film List</h1>
-        {/* Routes */}
+      
         <Routes>
           <Route path="/" element={<Film />} />
           <Route
